@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  elden-save-server:
+    build: .
+    container_name: elden-save-php
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    restart: unless-stopped
