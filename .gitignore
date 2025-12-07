@@ -1,0 +1,14 @@
+
+elden_saves.db
+backups/
+
+
+*.log
+
+
+vendor/
+
+
+.DS_Store
+Thumbs.db
+.vscode/
